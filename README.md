@@ -58,11 +58,11 @@ $ cd Ros_LEDlight/scripts
 $ rosrun ros_ledlight count.py
 $ rostopic echo /cout_up
 $ rosrun ros_ledlight led.py
-$ cd Ros_LEDlight
 ```
 ## 終了
 ```
 ctrl + c
+$ cd Ros_LEDlight
 $ ./post_processing.sh
 ```
 
