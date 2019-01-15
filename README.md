@@ -42,13 +42,16 @@ $ echo $ROS_PACKAGE_PATH
 ## 使用GPIOポート
 GPIO4, 18, 17, 27, 22, 23, 24, 25
 
-## クローンと実行
+## クローン
 ```
 $ git clone https://github.com/AtsuyaKoike/Ros_LEDlight
 $ ./preprocessing.sh
 $ cd
 $ git clone https://github.com/AtsuyaKoike/Rosfile-with-led-
 $ cd catkin_ws/src/
+```
+## 実行
+```
 ↓新しくスクリーンを立ち上げて命令
 $ roscore
 ↓新しくスクリーンを立ち上げて命令
