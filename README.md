@@ -34,7 +34,7 @@ $ catkin_make
 $ source ~/.bashrc
 ```
 ## 確認
-````
+```
 $ echo $ROS_PACKAGE_PATH
 /home/ubuntu/catkin_ws/src:/opt/ros/kinetic/share
 ```
@@ -51,19 +51,13 @@ $ git clone https://github.com/AtsuyaKoike/Rosfile-with-led-
 $ cd catkin_ws/src/
 ```
 ## 実行
+すべて違うスクリーンで実行
 ```
-↓新しくスクリーンを立ち上げて命令
 $ roscore
-↓新しくスクリーンを立ち上げて命令
 $ cd Ros_LEDlight/scripts
-↓新しくスクリーンを立ち上げて命令
 $ rosrun ros_ledlight count.py
-↓新しくスクリーンを立ち上げて命令
 $ rostopic echo /cout_up
-↓新しくスクリーンを立ち上げて命令
 $ rosrun ros_ledlight led.py
-↓（終了時)新しくスクリーンを立ち上げて命令
-キーボード入力：ctrl + c
 $ cd Ros_LEDlight
 $ ./post_processing.sh
 ```
